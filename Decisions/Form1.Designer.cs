@@ -29,6 +29,7 @@ namespace Decisions
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.driveButton = new System.Windows.Forms.Button();
             this.driveOutput = new System.Windows.Forms.Label();
             this.voteButton = new System.Windows.Forms.Button();
@@ -271,6 +272,7 @@ namespace Decisions
             this.Controls.Add(this.voteButton);
             this.Controls.Add(this.driveOutput);
             this.Controls.Add(this.driveButton);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Decisions";
